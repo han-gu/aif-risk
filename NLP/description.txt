@@ -1,0 +1,14 @@
+Right now, this is the first iteration of the model. We only have data points from APPL but looking forward we want to:
+* Add regex to be compatible with more 10-ks
+* Scrape the dates the 10-k was filed
+* Scrape price from Yahoo Finance using those deights
+* Weight the changes 
+    * Sentiment analysis
+* Get more data points with all tickers
+
+In order to get to the plot:
+
+1)run get_10k.py
+2)run parse_sections.py
+3)run sentence_matcher.py
+4)run get_price_changes.py
